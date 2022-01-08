@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Practice_AddressBook
+namespace AddressBookUser
 {
     public class Program
     {
@@ -10,6 +10,8 @@ namespace Practice_AddressBook
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to Address Book for User");
+            AddressBookMain.Add();
+            AddressBookMain.ContactsDisplay();
         }
     }
 }
